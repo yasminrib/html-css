@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminuar o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagem/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender reproduzir audio em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/caballero - ofshane.mp3.mp3" type="audio/mpeg">
+        <source src="midia/caballero - ofshane.ogg.ogg" type="audio/ogg">
+    </audio>
+    <p>Seu Navegador não tem suporte para audio caso tenha interre de fazer download <a href="midia/caballero - ofshane.mp3.mp3">click aqui</a></p>
+</body>
+</html>

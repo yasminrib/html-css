@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu proprio servidor</p>
+    <video width="560" controls poster autoplay loop="imagem/capa-praia.png" >
+        <source src="media/meu-videomp4.mp4" type="video/mp4">
+            <source src="media/meu-videowebm.webm" type="video/webm">
+    </video>
+    <p>Infelizmente seu navagador não é compativel com o formato do video, faça o <a href="media/meu-videomp4.mp4">download aqui</a>.</p>
+    <h2>Inserindo video hospedado no YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UKI3RInimcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
